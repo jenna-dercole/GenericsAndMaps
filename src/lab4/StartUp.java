@@ -28,7 +28,7 @@ public class StartUp {
         movieList.add(m2);
         movieList.add(m3);
         
-        movieList.get(0).compare(movieList.get(1));
+        Collections.sort(movieList, new MovieByDirector());
     }
     
     
